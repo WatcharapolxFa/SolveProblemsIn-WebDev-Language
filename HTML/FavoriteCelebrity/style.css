@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ccc;
+  }
+  
+  nav {
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 3rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+    z-index: 10000;
+  }
+  
+  nav .left {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  nav .left a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav .left,
+  nav .right {
+    padding: 1.5rem 0;
+  }
+  
+  nav .right ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+  }
+  
+  nav .right ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 1rem;
+  }
+  
+  .container {
+    width: 1000px;
+    padding: 5rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+  }
+  
+  /* page 1 */
+  
+  .box {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    position: relative;
+  }
+  
+  .box img {
+    width: 100%;
+    /* height: 50%; */
+  }
+  
+  .box .topic ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: baseline;
+    margin: 1rem 0;
+  }
+  
+  .box .topic ul .eng {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  
+  .box .content {
+    text-indent: 2.5rem;
+  }
+  
+  .box button {
+    margin: 1rem 0;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: gray;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .container .detail-page .content button {
+    margin: 1rem 0;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: gray;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* page 2 */
+  .detail-page {
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .banner img {
+    width: 100%;
+  }
+  
+  .detail-page .content h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  
+  .detail-page .content p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+  .detail-page hr {
+    margin: 0 1rem;
+  }
+  
+  hr {
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .detail-page .content {
+    padding: 0rem 1rem;
+  }
+  
+  .detail-page .content .topic,
+  .detail-page .content .topic-detail {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+  }
+  
+  .detail-page .content .topic-detail-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  
+  .detail-page .content .topic-detail-image img {
+    width: 80%;
+  }
