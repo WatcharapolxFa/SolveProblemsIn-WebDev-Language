@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<title>Search</title>
+		
+	</head>
+
+	<body onload="loadDoc()">
+			
+		<h1>Search Student Info</h1>
+			
+		
+			<label for="searchName">Student Name</label>
+			<input id="searchName" type="text">
+			<label for="searchYear">Year</label>
+			<input id="searchYear" type="number"><br>
+			
+		
+			<button type="button" onclick="search()">Search</button>
+
+			<br><br>
+
+			<ul id="studentList">
+				
+			</ul>
+	</body>
+
+	<script src='js/search.js'></script>
+	
+</html>
