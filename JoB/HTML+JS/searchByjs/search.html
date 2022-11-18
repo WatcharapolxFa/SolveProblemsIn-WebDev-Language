@@ -5,6 +5,12 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		
 		<title>Search</title>
+
+		<style>
+			.ul-ele {
+				list-style: none;
+			}
+		</style>
 		
 	</head>
 
@@ -18,16 +24,15 @@
 			<label for="searchYear">Year</label>
 			<input id="searchYear" type="number"><br>
 			
-		
 			<button type="button" onclick="search()">Search</button>
 
 			<br><br>
 
-			<ul id="studentList">
+			<ul id="studentList" class="ul-ele">
 				
 			</ul>
-	</body>
 
-	<script src='js/search.js'></script>
+			<script src="js/search.js"></script>
+	</body>
 	
 </html>
